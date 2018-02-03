@@ -22,6 +22,8 @@
         };
         xhr.send(JSON.stringify(payload));
 
+        document.getElementById('flag').value = '';
+
         return false;
     };
 })();
