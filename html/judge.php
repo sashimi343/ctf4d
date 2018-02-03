@@ -1,6 +1,6 @@
 <?php
 
-require_once(dirname(__FILE__) . '/../common/includes/Problems.class.php');
+require_once(dirname(__FILE__) . '/common/includes/Problems.class.php');
 
 function get_request_data() {
     $json_string = file_get_contents('php://input');

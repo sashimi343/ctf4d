@@ -1,7 +1,7 @@
 (function() {
     document.getElementById('judge').onsubmit = function() {
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', '/judge/index.php', false);
+        xhr.open('POST', '/judge.php', false);
         xhr.setRequestHeader('Content-Type', 'application/json');
 
         xhr.onreadystatechange = function() {
