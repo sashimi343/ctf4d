@@ -37,5 +37,6 @@ VALUES
     ('welcome', 'Welcome to CTF for D', 1, 10, 'welcome2ctf4d'),
     ('flag_is_right_there', 'FLAG is right there!!', 2, 20, 'SaveTheSource'),
     ('base192', '定番の難読化', 7, 30, 'BASE=6666'),
-    ('todays_snack', '今日のおやつは……', 2, 50, 'i_am_CookieM0nst3r!')
+    ('todays_snack', '今日のおやつは……', 2, 50, 'i_am_CookieM0nst3r!'),
+    ('call', 'call/my/name', 2, 200, '/REST/ful/API?')
 ;
