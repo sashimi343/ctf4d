@@ -1,0 +1,7 @@
+#!/bin/bash
+
+MYSQL_ROOT_PASSWORD='password'
+
+for f in /docker-entrypoint-initdb.d/*.sql; do
+    mysql -uroot -p${MYSQL_ROOT_PASSWORD} <${f}
+done
