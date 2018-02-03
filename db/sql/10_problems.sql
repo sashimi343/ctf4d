@@ -23,7 +23,7 @@ CREATE TABLE problems (
 
 INSERT INTO genres (id, name)
 VALUES
-    (1, 'Pactice'),
+    (1, 'Practice'),
     (2, 'Web'),
     (3, 'Programming'),
     (4, 'Network/Forensic'),
