@@ -1,5 +1,5 @@
--- CTF‚ÌƒVƒXƒeƒ€‰^—pã•K—v‚ÈDB
--- ‚±‚ÌDB‚¾‚¯‚ÍƒAƒ^ƒbƒN‚³‚ê‚È‚¢‚æ‚¤‚É‚·‚é•K—v‚ ‚è
+-- CTFã®ã‚·ã‚¹ãƒ†ãƒ é‹ç”¨ä¸Šå¿…è¦ãªDB
+-- ã“ã®DBã ã‘ã¯ã‚¢ã‚¿ãƒƒã‚¯ã•ã‚Œãªã„ã‚ˆã†ã«ã™ã‚‹å¿…è¦ã‚ã‚Š
 
 DROP DATABASE IF EXISTS score_board;
 CREATE DATABASE score_board;
@@ -28,12 +28,14 @@ VALUES
     (3, 'Programming'),
     (4, 'Network/Forensic'),
     (5, 'Binary/Reversing'),
-    (6, 'Misc')
+    (6, 'Misc'),
+    (7, 'Crypt')
 ;
 
 INSERT INTO problems (unique_name, title, genre_id, point, flag)
 VALUES
     ('welcome', 'Welcome to CTF for D', 1, 10, 'welcome2ctf4d'),
     ('flag_is_right_there', 'FLAG is right there!!', 2, 20, 'SaveTheSource'),
-    ('todays_snack', '¡“ú‚Ì‚¨‚â‚Â‚Ícc', 2, 50, 'i_am_CookieM0nst3r!')
+    ('base192', 'å®šç•ªã®é›£èª­åŒ–', 7, 30, 'BASE=6666'),
+    ('todays_snack', 'ä»Šæ—¥ã®ãŠã‚„ã¤ã¯â€¦â€¦', 2, 50, 'i_am_CookieM0nst3r!')
 ;
