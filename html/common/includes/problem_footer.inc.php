@@ -3,7 +3,7 @@
                 <form id="judge">
                     <label for="flag">FLAG:</label>
                     <input type="text" id="flag" name="flag" />
-                    <input type="hidden" id="problemNo" name="problemNo" value="<?php echo $problemNo; ?>" />
+                    <input type="hidden" id="problemNo" name="problemNo" value="<?php echo $problem['problem_no']; ?>" />
                     <input type="submit" value="Submit" />
                 </form>
             </p>

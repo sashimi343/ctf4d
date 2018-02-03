@@ -1,3 +1,10 @@
+<?php
+
+require('./common/includes/Problems.class.php');
+
+$problems = (new Problems())->find_all();
+
+?>
 <!DOCTYLE html>
 <html>
     <head>
@@ -32,20 +39,17 @@
                         <th>Point</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td><a href="/welcome/">Welcome to CTF for D</a></td>
-                        <td>Practice</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><a href="/flag_is_right_there/">FLAG is right there!!</a></td>
-                        <td>Web</td>
-                        <td>20</td>
-                    </tr>
-                </tbody>
+<?php
+
+foreach($problems as $problem) {
+    echo '<tr>';
+    echo '<td>' . htmlspecialchars($problem['problem_no']) . '</td>';
+    echo '<td><a href="/' . htmlspecialchars($problem['unique_name']) . '/">' . htmlspecialchars($problem['title']) . '</a></td>';
+    echo '<td>' . htmlspecialchars($problem['genre_name']) . '</td>';
+    echo '<td>' . htmlspecialchars($problem['point']) . '</td>';
+}
+
+?>
             </table>
             <hr />
             <p class="copyright">Copyright (c) 2018 Kohei Kakimoto All Rights Reserved.</p>

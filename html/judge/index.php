@@ -1,6 +1,6 @@
 <?php
 
-require('./flags.php');
+require_once(dirname(__FILE__) . '/../common/includes/Problems.class.php');
 
 function get_request_data() {
     $json_string = file_get_contents('php://input');
@@ -18,10 +18,6 @@ function is_valid_request($request_data) {
         return false;
     }
 
-    if(!array_key_exists($request_data->problemNo, FLAGS)) {
-        return false;
-    }
-
     return true;
 }
 
@@ -31,8 +27,8 @@ function judge() {
         http_response_code(400);
     }
 
-    $correctFlag = 'FLAG{' . FLAGS[$request_data->problemNo] . '}';
-    if($request_data->flag !== $correctFlag) {
+    $result = (new Problems())->verify_flag($request_data->problemNo, $request_data->flag);
+    if(!$result) {
         http_response_code(400);
     }
 }
