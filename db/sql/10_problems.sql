@@ -37,9 +37,9 @@ VALUES
     ('welcome', 'Welcome to CTF for D', 1, 10, 'welcome2ctf4d'),
     ('flag_is_right_there', 'FLAG is right there!!', 2, 20, 'SaveTheSource'),
     ('base192', '定番の難読化', 7, 30, 'BASE=6666'),
-    ('todays_snack', '今日のおやつは……', 2, 50, 'i_am_CookieM0nst3r!'),
     ('click_500', 'Click 500 times', 3, 50, 'var_JS=sugoi;'),
-    ('click_1000', 'Click 1,000 times', 3, 50, 'JS-is-awesome!XD'),
-    ('six_chars_world', '記号プログラミング入門', 3, 70, 'JSF*ck'),
+    ('todays_snack', '今日のおやつは……', 2, 100, 'i_am_CookieM0nst3r!'),
+    ('six_chars_world', '記号プログラミング入門', 3, 100, 'JSF*ck'),
+    ('click_1000', 'Click 1,000 times', 3, 150, 'JS-is-awesome!XD'),
     ('call', 'call/my/name', 2, 200, '/REST/ful/API?')
 ;
