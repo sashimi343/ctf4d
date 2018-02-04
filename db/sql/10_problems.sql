@@ -37,6 +37,7 @@ VALUES
     ('welcome', 'Welcome to CTF for D', 1, 10, 'welcome2ctf4d'),
     ('flag_is_right_there', 'FLAG is right there!!', 2, 20, 'SaveTheSource'),
     ('base192', '定番の難読化', 7, 30, 'BASE=6666'),
+    ('http_header', 'Study HTTP', 2, 30, 'RFC2616_HTTP1.1'),
     ('click_500', 'Click 500 times', 3, 50, 'var_JS=sugoi;'),
     ('then_fall_caesar', 'ブルータス、お前もか', 7, 50, 'SI-ZA-ANGO'),
     ('strings', '実行ファイルを解析してみよう', 5, 70, '$cmd_strings'),
