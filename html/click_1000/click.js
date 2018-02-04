@@ -1,6 +1,3 @@
-/**
- * 実際に出題するときには難読化して出題します。
- */
 (function() {
     var counter = document.getElementById('counter');
     var theButton = document.getElementById('theButton');
