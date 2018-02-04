@@ -39,12 +39,12 @@ if($_SERVER['REQUEST_METHOD'] !== 'POST') {
 if($_SERVER['CONTENT_TYPE'] !== 'application/json') {
     // Request does not contain 'name'
     if(!isset($_POST['name'])) {
-        respond_ng("Please call my 'name', Mr Taki");
+        respond_ng("Please call my 'name', Mr. Taki.");
     }
 
     // Requested (called) name is wrong
     if($_POST['name'] !== $my_name) {
-        respond_ng("My name is '$my_name', Mr. Taki");
+        respond_ng("My name is '$my_name', Mr. Taki.");
     }
 
     // Requested (called) name is correct, but Content-Type is not 'application/json'
@@ -57,17 +57,17 @@ $request_json = json_decode($request_raw_data);
 
 // JSON format is invalid
 if($request_json === null) {
-    respond_ng('Request data is invalid. Please send correct JSON data');
+    respond_ng('Request data is invalid. Please send correct JSON data.');
 }
 
 // Requested does not contain 'name'
 if(!isset($request_json->name)) {
-    respond_ng("Please call my 'name', Mr. Taki");
+    respond_ng("Please call my 'name', Mr. Taki.");
 }
 
 // Requested (called) name is wrong
 if($request_json->name !== $my_name) {
-    respond_ng("My name is '$my_name', Mr. Taki");
+    respond_ng("My name is '$my_name', Mr. Taki.");
 }
 
 respond_ok();
