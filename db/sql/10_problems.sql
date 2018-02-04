@@ -39,6 +39,7 @@ VALUES
     ('base192', '定番の難読化', 7, 30, 'BASE=6666'),
     ('click_500', 'Click 500 times', 3, 50, 'var_JS=sugoi;'),
     ('then_fall_caesar', 'ブルータス、お前もか', 7, 50, 'SI-ZA-ANGO'),
+    ('strings', '実行ファイルを解析してみよう', 5, 70, '$cmd_strings'),
     ('todays_snack', '今日のおやつは……', 2, 100, 'i_am_CookieM0nst3r!'),
     ('six_chars_world', '記号プログラミング入門', 3, 100, 'JSF*ck'),
     ('click_1000', 'Click 1,000 times', 3, 150, 'JS-is-awesome!XD'),
