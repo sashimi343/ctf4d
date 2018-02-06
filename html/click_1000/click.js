@@ -17,7 +17,6 @@
     };
 
     theButton.onclick = function() {
-        var counter = document.getElementById('counter');
         var currentCount = counter.innerText * 1;
         var newCount = currentCount + 1;
         counter.innerText = newCount;
