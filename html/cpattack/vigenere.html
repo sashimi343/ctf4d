@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vigenere Cipher Encoder</title>
+        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <script type="text/javascript" src="/common/kickstart_lite/js/kickstart_lite.js"></script>                         
+        <link rel="stylesheet" type="text/css" href="/common/kickstart_lite/css/kickstart.css" media="all" />
+    </head>
+    <body>
+        <div id="container">
+            <h1>Vigenere Cipher Encoder</h1>
+            <form id="encoder">
+                    <label for="plaintext">Plaintext</label>
+                    <textarea id="plaintext" name="plaintext" cols="40"></textarea>
+                    <input type="submit" value="Encode -&gt;" />
+                    <textarea id="ciphertext" name="ciphertext" cols="40"></textarea>
+                    <label for="ciphertext">Ciphertext</label>
+            </form>
+            <hr />
+            <span>encoder.py</span>
+            <pre>
+def encode(plaintext, key):
+    source = &#039;0123456789!&quot;#$%&amp;\&#039;()-=^~\\|@`[]{};+:*,.&lt;&gt;/?_ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&#039;
+    ciphertext = &#039;&#039;
+
+    for i in range(len(plaintext)):
+        if plaintext[i] in source:
+            p_i = source.index(plaintext[i])
+            k_i = source.index(key[i % len(key)])
+            c_i = (p_i + k_i) % len(source)
+            ciphertext += source[c_i]
+        else:
+            ciphertext += plaintext[i]
+
+    return ciphertext
+            </pre>
+        </div>
+        <script type="text/javascript" src="/cpattack/cpattack.js"></script>
+    </body>
+</html>
