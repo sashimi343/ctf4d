@@ -25,7 +25,7 @@ function respond($response_data) {
     header('Access-Control-Allow-Origin: *');
     header('Content-Type: application/json');
 
-    echo json_encode($response_data);
+    echo json_encode($response_data, JSON_UNESCAPED_SLASHES);
 
     exit();
 }
