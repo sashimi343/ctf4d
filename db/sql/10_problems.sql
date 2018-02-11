@@ -47,5 +47,6 @@ VALUES
     ('six_chars_world', '記号プログラミング入門', 3, 100, 'JSF*ck'),
     ('click_1000', 'Click 1,000 times', 3, 150, 'JS-is-awesome!XD'),
     ('call', 'call/my/name', 2, 200, '/REST/ful/API?'),
-    ('cpattack', 'Chosen-Plaintext Attack', 7, 200, '|/igen3re')
+    ('cpattack', 'Chosen-Plaintext Attack', 7, 200, '|/igen3re'),
+    ('sqli_reloaded', 'SQL Injection Reloaded', 2, 200, 'B!@ck_Li5t_isn7_Perf3cT')
 ;
