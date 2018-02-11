@@ -14,7 +14,8 @@ function detect_sql_injection($subject) {
         '/\s+and/i',        // " and"
         '/\s+or/i',         // " or"
         '/-- /',            // single-line comment("-- ")
-        '/\/\*\w*\*\//'     // C-style comment("/* 〜 */")
+        '/\/\*\w*\*\//',    // C-style comment("/* 〜 */")
+        '/#/'               // single-line comment 2("# ")
     );
 
     // Check if $subject contains a fragment of SQL.
