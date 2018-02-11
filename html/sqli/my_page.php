@@ -5,6 +5,7 @@ session_start(array('cookie_path' => '/sqli'));
 // Check if user is logged in.
 if(!isset($_SESSION['login_user'])) {
     header('Location: /sqli/login_page.php');
+    exit();
 }
 
 ?>
