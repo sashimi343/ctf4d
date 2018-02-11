@@ -43,6 +43,7 @@ VALUES
     ('riddle_game', '隠しページ探し', 2, 70, 'G00D-o1d+g@m3!'),
     ('strings', '実行ファイルを解析してみよう', 5, 70, '$cmd_strings'),
     ('todays_snack', '今日のおやつは……', 2, 100, 'i_am_CookieM0nst3r!'),
+    ('sqli', 'SQL Injection', 2, 100, 'S9L_1nj3ction_k0w@ii'),
     ('six_chars_world', '記号プログラミング入門', 3, 100, 'JSF*ck'),
     ('click_1000', 'Click 1,000 times', 3, 150, 'JS-is-awesome!XD'),
     ('call', 'call/my/name', 2, 200, '/REST/ful/API?'),
