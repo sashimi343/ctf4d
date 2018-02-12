@@ -48,6 +48,7 @@ VALUES
     ('click_1000', 'Click 1,000 times', 3, 150, 'JS-is-awesome!XD'),
     ('call', 'call/my/name', 2, 200, '/REST/ful/API?'),
     ('cpattack', 'Chosen-Plaintext Attack', 7, 200, '|/igen3re'),
+    ('priv_escalation', 'Privilege Escalation', 2, 200, 'CWE-639_4uth0rizat1on-6ypa$$|ng'),
     ('sqli_reloaded', 'SQL Injection Reloaded', 2, 200, 'B!@ck_Li5t_isn7_Perf3cT'),
     ('sqli_revolutions', 'SQL Injection Revolutions', 2, 300, 'F0rmat-5tr!n9_&_SQ|_i')
 ;
