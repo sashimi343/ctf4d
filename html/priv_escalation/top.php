@@ -5,7 +5,7 @@ require_once(dirname(__FILE__).'/functions.inc.php');
 session_start(array('cookie_path' => '/priv_escalation'));
 
 ?>
-<!DOCTYLE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />

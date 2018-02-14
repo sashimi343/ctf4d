@@ -3,7 +3,7 @@
 session_start(array('cookie_path' => '/sqli_revolutions'));
 
 ?>
-<!DOCTYLE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />

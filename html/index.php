@@ -5,7 +5,7 @@ require('./common/includes/Problems.class.php');
 $problems = (new Problems())->find_all();
 
 ?>
-<!DOCTYLE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />

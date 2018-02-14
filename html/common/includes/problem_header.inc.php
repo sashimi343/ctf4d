@@ -7,7 +7,7 @@ $unique_name = basename(dirname($problem_index));
 $problem = (new Problems())->find_by_unique_name($unique_name);
 
 ?>
-<!DOCTYLE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />

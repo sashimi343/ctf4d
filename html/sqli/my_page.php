@@ -9,7 +9,7 @@ if(!isset($_SESSION['login_user'])) {
 }
 
 ?>
-<!DOCTYLE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
