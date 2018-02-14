@@ -40,6 +40,7 @@ VALUES
     ('http_header', 'Study HTTP', 2, 30, 'RFC2616_HTTP1.1'),
     ('click_500', 'Click 500 times', 3, 50, 'var_JS=sugoi;'),
     ('then_fall_caesar', 'ブルータス、お前もか', 7, 50, 'SI-ZA-ANGO'),
+    ('13th_cipher', '13番目の暗号', 7, 70, 'consectetur'),
     ('riddle_game', '隠しページ探し', 2, 70, 'G00D-o1d+g@m3!'),
     ('strings', '実行ファイルを解析してみよう', 5, 70, '$cmd_strings'),
     ('todays_snack', '今日のおやつは……', 2, 100, 'i_am_CookieM0nst3r!'),
