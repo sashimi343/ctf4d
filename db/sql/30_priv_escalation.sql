@@ -24,7 +24,7 @@ CREATE TABLE posts(
 );
 
 INSERT INTO accounts(user_id, encrypted_password, name, account_type, is_default) VALUES
-    ('root', SHA2('uSWD%#8ZwfepT)fW', 256), 'Admin', 'A', 1),
+    ('admin', SHA2('uSWD%#8ZwfepT)fW', 256), 'Admin', 'A', 1),
     ('jabberwock', SHA2('mx22,kjJ4S$kNJ&3', 256), 'Jabberwock', 'A', 1),
     ('alice', SHA2('!.sU_b!-bV(F+Ah5)', 256), 'Alice', 'U', 1)
 ;
