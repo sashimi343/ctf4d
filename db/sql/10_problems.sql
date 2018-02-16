@@ -46,6 +46,7 @@ VALUES
     ('todays_snack', '今日のおやつは……', 2, 100, 'i_am_CookieM0nst3r!'),
     ('sqli', 'SQL Injection', 2, 100, 'S9L_1nj3ction_k0w@ii'),
     ('six_chars_world', '記号プログラミング入門', 3, 100, 'JSF*ck'),
+    ('runnable_aa', 'この顔文字……動くぞ！', 3, 100, 'aaencode:)'),
     ('click_1000', 'Click 1,000 times', 3, 150, 'JS-is-awesome!XD'),
     ('call', 'call/my/name', 2, 200, '/REST/ful/API?'),
     ('cpattack', 'Chosen-Plaintext Attack', 7, 200, '|/igen3re'),
