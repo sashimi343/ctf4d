@@ -16,7 +16,7 @@ $name = $_POST['name'];
 $account_type = $_POST['account_type'];
 
 // Validate user input.
-if(!is_string($user_id) || empty($user_id) || !preg_match('/^\w{4,32}$/', $user_id)) {
+if(!is_string($user_id) || empty($user_id) || !preg_match('/^\w{1,32}$/', $user_id)) {
     show_error('ユーザIDが不正です。');
 }
 

@@ -23,7 +23,7 @@ if(isset($_SESSION['register_error'])) {
         <form action="/priv_escalation/register.php" method="POST">
             <input type="hidden" name="account_type" value="U" />
             <p>
-                <label for="user_id">ユーザID:</label>
+                <label for="user_id">ユーザID(半角英数字、32文字以内):</label>
                 <input type="text" name="user_id" />
             </p>
             <p>
@@ -31,7 +31,7 @@ if(isset($_SESSION['register_error'])) {
                 <input type="password" name="password" />
             </p>
             <p>
-                <label for="name">ユーザ名:</label>
+                <label for="name">ユーザ名(64文字以内):</label>
                 <input type="text" name="name" />
             </p>
             <p>
