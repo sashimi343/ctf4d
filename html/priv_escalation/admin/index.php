@@ -19,6 +19,6 @@ if(!isset($_SESSION['admin_login_id'])) {
     <body>
         <h1>管理者用ページ</h1>
         <p>Congratulations!</p>
-        <p>FLAG{CWE-639_4uth0rizat1on-6ypa$$|ng}</p>
+        <p>FLAG{CWE-269_1mpr0p3r_Priv_M@na9ement}</p>
     </body>
 </html>
