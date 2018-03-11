@@ -44,6 +44,7 @@ VALUES
     ('hashed_potato', '#potato', 7, 70, '8ee2027983915ec78acc45027d874316'),
     ('riddle_game', '隠しページ探し', 2, 70, 'G00D-o1d+g@m3!'),
     ('strings', '実行ファイルを解析してみよう', 5, 70, '$cmd_strings'),
+    ('x_files', 'The X-Files', 5, 80, 'M@g1c_Numb3r_123!'),
     ('todays_snack', '今日のおやつは……', 2, 100, 'i_am_CookieM0nst3r!'),
     ('sqli', 'SQL Injection', 2, 100, 'S9L_1nj3ction_k0w@ii'),
     ('six_chars_world', '記号プログラミング入門', 3, 100, 'JSF*ck'),
